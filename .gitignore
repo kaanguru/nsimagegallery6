@@ -1,10 +1,1 @@
-# JetBrains project files
-.idea
-
-# NPM
 node_modules
-yarn.lock
-
-# NativeScript application
-hooks
-platforms
