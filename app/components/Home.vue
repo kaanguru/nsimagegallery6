@@ -1,10 +1,10 @@
 <template>
     <Page class="page">
         <ActionBar class="action-bar">
-            <Label class="action-bar-title" text="Picture Gallery"></Label>
+            <Label class="action-bar-title" text="Fotoğraf Ekleme"></Label>
         </ActionBar>
         <StackLayout>
-            <Label text.decode="&#xf030; " @tap="takePicture" class="take-picture-icon fa" />
+            <Label text="" @tap="takePicture" class="fas p-2 koyu text-center" fontSize="28"/>
             <ScrollView class="picture-gallery" orientation="vertical">
                 <StackLayout orientation="vertical">
                     <GridLayout v-for="image in arrayPictures" :key="image.id" columns="*" rows="*">

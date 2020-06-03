@@ -1,0 +1,4 @@
+D:\test\NS\ns6images\platforms\android\app\src\main\assets\app\bundle.js
+D:\test\NS\ns6images\platforms\android\app\src\main\assets\app\runtime.js
+D:\test\NS\ns6images\platforms\android\app\src\main\assets\app\tns-java-classes.js
+D:\test\NS\ns6images\platforms\android\app\src\main\assets\app\vendor.js

@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.NSimagegallery6"
+4    android:versionCode="10000"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:13:2-76
+17-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:13:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:14:2-77
+18-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:14:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:15:2-63
+19-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:15:19-61
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:10:5-65
+20-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:10:22-62
+21
+22    <application
+22-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:17:2-38:16
+23        android:name="com.tns.NativeScriptApplication"
+23-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:18:3-49
+24        android:allowBackup="true"
+24-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:19:3-29
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.0.1] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\eeb5da7c8c0996fbc1c9cdf4633c58bb\core-1.0.1\AndroidManifest.xml:22:18-86
+26        android:debuggable="true"
+27        android:icon="@drawable/icon"
+27-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:20:3-32
+28        android:label="@string/app_name"
+28-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:21:3-35
+29        android:theme="@style/AppTheme" >
+29-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:22:3-34
+30        <activity
+30-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:24:3-36:14
+31            android:name="com.tns.NativeScriptActivity"
+31-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:25:4-47
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
+32-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:27:4-120
+33            android:label="@string/title_activity_kimera"
+33-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:26:4-49
+34            android:theme="@style/LaunchScreenTheme" >
+34-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:28:4-44
+35            <meta-data
+35-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:30:4-87
+36                android:name="SET_THEME_ON_LAUNCH"
+36-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:30:15-49
+37                android:resource="@style/AppTheme" />
+37-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:30:50-84
+38
+39            <intent-filter>
+39-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:32:4-35:20
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:33:5-57
+40-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:33:13-54
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:34:5-65
+42-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:34:15-62
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.tns.ErrorReportActivity" />
+45-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:37:3-57
+45-->D:\test\NS\ns6images\platforms\android\app\src\main\AndroidManifest.xml:37:13-55
+46
+47        <provider
+47-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:13:9-22:20
+48            android:name="androidx.core.content.FileProvider"
+48-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:14:13-62
+49            android:authorities="org.nativescript.NSimagegallery6.provider"
+49-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:15:13-60
+50            android:exported="false"
+50-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:16:13-37
+51            android:grantUriPermissions="true" >
+51-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:17:13-47
+52            <meta-data
+52-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:18:13-21:52
+53                android:name="android.support.FILE_PROVIDER_PATHS"
+53-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:19:17-67
+54                android:resource="@xml/provider_paths" />
+54-->[:nativescript_camera:] C:\Users\cemka\.gradle\caches\transforms-2\files-2.1\479380e8a9d5e5f67addba04b62b41a7\jetified-nativescript_camera\AndroidManifest.xml:20:17-55
+55        </provider>
+56    </application>
+57
+58</manifest>

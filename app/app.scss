@@ -1,9 +1,12 @@
-// Import app variables
-@import 'app-variables';
-
-// Import the theme’s main ruleset - both index and platform specific.
-@import '~nativescript-theme-core/scss/index';
-@import '~nativescript-theme-core/scss/platforms/index.android';
-
-// Import common styles
-@import 'app-common';
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/ruby";
+.fas {
+    font-family: "Font Awesome 5 Free Solid", "fa-solid-900";
+    font-weight: 900;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands Regular", "fa-brands-400";
+}
+.koyu {
+    color: $complementary
+}
